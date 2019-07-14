@@ -1,0 +1,40 @@
+{
+  "name": "@ryzome/monorepo",
+  "version": "0.0.0",
+  "description": "Distributed Social",
+  "main": "index.js",
+  "repository": "https://github.com/diffalot/ryzome",
+  "author": "Alice Davis <alice@gigantic.computer>",
+  "license": "GPL",
+  "private": true,
+  "workspaces": [
+    "website",
+    "ts/*"
+  ],
+  "scripts": {
+    "start": "yarn && yarn run:website",
+    "run:website": "cd website && yarn start",
+    "build": "cd website && yarn build",
+    "lint": "eslint ./**/*.ts ./website/**/*.tsx",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-standard-with-typescript": "^7.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.9.0",
+    "prettier-eslint": "^9.0.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {}
+}
