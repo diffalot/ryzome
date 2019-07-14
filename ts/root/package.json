@@ -1,0 +1,9 @@
+{
+  "name": "@rhizome/root",
+  "version": "0.0.0",
+  "description": "identity",
+  "main": "index.ts",
+  "author": "Alice Davis <alice@gigantic.computer>",
+  "license": "GPLv3",
+  "private": false
+}
