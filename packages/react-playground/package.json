@@ -1,0 +1,22 @@
+{
+  "name": "@datql/react-playground",
+  "version": "0.0.0",
+  "description": "datql examples in react",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/diffalot/datql",
+  "author": "Alice Davis <alice@gigantic.computer>",
+  "license": "GPLv3",
+  "private": false,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4"
+  }
+}

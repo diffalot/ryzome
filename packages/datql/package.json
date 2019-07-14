@@ -1,0 +1,10 @@
+{
+  "name": "@datql/datql",
+  "version": "0.0.0",
+  "description": "the datql metapackage",
+  "main": "src/index.ts",
+  "repository": "https://github.com/diffalot/datql",
+  "author": "Alice Davis <alice@gigantic.computer>",
+  "license": "GPLv3",
+  "private": false
+}

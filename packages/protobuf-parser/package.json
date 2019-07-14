@@ -1,0 +1,12 @@
+{
+  "name": "@datql/protobuf-parser",
+  "version": "0.0.0",
+  "description": "parses protobuf files",
+  "main": "src/index.ts",
+  "repository": "https://github.com/diffalot/datql",
+  "author": "Alice Davis <alice@gigantic.computer>",
+  "license": "GPLv3",
+  "private": false,
+  "dependencies": {
+  }
+}
