@@ -1,3 +1,3 @@
 export const parser = (): void => {
-  console.log('the parser loaded')
+  console.log('the protobuf parser loaded')
 }

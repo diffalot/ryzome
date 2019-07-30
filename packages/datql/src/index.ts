@@ -1,8 +1,4 @@
-import { parser } from '@datql/protobuf-parser'
+console.log('what')
+console.log('what')
 
-export const datql = (): void => {
-  console.log('datql loaded')
-  parser()
-}
-
-export default datql
+export { dql } from '@datql/graphql-parser'

@@ -6,5 +6,10 @@
   "repository": "https://github.com/diffalot/datql",
   "author": "Alice Davis <alice@gigantic.computer>",
   "license": "GPLv3",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@datql/graphql-parser": "^0.0.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1"
+  }
 }
