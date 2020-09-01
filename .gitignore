@@ -1,0 +1,8 @@
+node_modules
+.dat
+.cache
+dist
+dat.json
+coverage
+.nyc_output
+commit-message.md
